@@ -82,8 +82,9 @@ POST /predict
 ```json
 {
   "Pclass": 3,
-  "Sex": 1,
-  "Age": 22
+  "Age": 22,
+  "Sex_male": 1
+
 }
 ```
 
@@ -109,8 +110,8 @@ Where `0 = Did not survive`, `1 = Survived`.
 ```json
 {
   "Pclass": 2,
-  "Sex": 0,
-  "Age": 30
+  "Age": 30,
+  "Sex_male": 0
 }
 ```
 
